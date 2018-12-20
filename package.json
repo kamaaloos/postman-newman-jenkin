@@ -1,0 +1,13 @@
+{
+  "name": "postman-newman-jenkin",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "api-test": "newman run tests/jsonplaceholder.com.postman_collection.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies":{
+	"newman":"^4.2.3"
+  }
+}
